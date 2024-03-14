@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+html {
+  scroll-behavior:smooth;
+}
+body {
+  background-color: #FFF8DC;
+  color: #000000;
+  font-family: Roboto;
+  padding: 0;
+  margin: 0 auto;
+  padding: 0px 20px;
+  max-width: 1000px;
+}
+header > a {
+  margin-right: 20px;
+}
+.titulo {
+  width: 100%;
+  background-color: #DEB887;
+  padding: 30px 20px;
+  margin: 60px 0 50px;
+  box-sizing: border-box;
+  border: solid #000 1px;
+  border-radius:10px;
+  box-shadow: 10px 10px 10px #000000cc;
+}
+h1 {
+  text-align: center;
+  font-size: 60px;
+  margin: 0;
+}
+h2 {
+  display: inline-block;
+  width: 100%;
+}
+h3 {
+  text-align: center;
+}
+figure {
+  margin: 0;
+}
+p {
+  line-height: 30px;
+}
+section {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  margin-bottom: 150px;
+}
+figure > img {
+  object-fit: cover;
+}
+.ficha{
+  width: 100%;
+  display: inline-block;
+  min-width: 500px;
+  background-color: #D2B48C;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border-radius:5px;
+  box-shadow: 10px 10px 10px #000000cc;
+}
+#voltar {
+  background-color: #FFF8DC;
+  padding: 10px;
+  border-radius: 10px;
+  position: fixed;
+  box-shadow: 0px 0px 25px #000000cc;
+}
+footer {
+  width: 100%;
+  padding: 30px 0px;
+  text-align: center;
+  box-shadow: 0px -3px 10px #00000088;
+  font-size: 20px;
+}
